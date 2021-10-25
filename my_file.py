@@ -7,7 +7,7 @@ class TestStringMethods(unittest.TestCase):
   
     # Returns True if the string contains 4 a.
     def test_strings_a(self):
-        self.assertEqual( 'a'*5, 'aaaa')
+        self.assertEqual( 'a'*4, 'aaaa')
   
     # Returns True if the string is in upper case.
     def test_upper(self):        
