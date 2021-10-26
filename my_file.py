@@ -13,6 +13,9 @@ class TestStringMethods(unittest.TestCase):
     def test_upper(self):        
         self.assertEqual('foo'.upper(), 'FOO')
 
+    def test_new_test(self):
+        self.assertEqual(False, False)    
+
 
 
  
